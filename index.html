@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tzeeter</title>
 </head>
 <body>
     <aside>
-        <ul>
+        <ul class="menu">
             <li><a href="">Home</a></li>
             <li><a href="">Explore</a></li>
             <li><a href="">Notifications</a></li>
@@ -20,38 +21,51 @@
     </aside>
     
     <main>
-        <img src="" alt="">
+        <div class="profile">
+            <img src="https://pbs.twimg.com/profile_images/1654853398737330178/Mve_fmTX_400x400.jpg" alt="">
+            <button>Edit Profile</button>
+        </div>
+        
+        <h2 class="black">Francisco Leudes</h2>
+        <h4 class="grey">@leudesz</h4>
 
-        <h2>Francisco Leudes</h2>
-        <h4>@leudesz</h4>
-    
-        <button>Edit Profile</button>
-    
-        <ul>
+        <p>Aspiring developer</p>
+
+        <ul class="stats">
             <li><a href="">Quixadá</a></li>
             <li><a href="">Joined November 2004</a></li>
         </ul>
-        <ul>
-            <li><a href="">24 Following</a></li>
-            <li><a href="">77 Followers</a></li>
+        <ul class="stats">
+            <li><span>24 </span><a href="">Following</a></li>
+            <li><span>77 </span><a href="">Followers</a></li>
         </ul>
     </main>
     
     <section>
-        <div>
-            <img src="" alt="">
-            <p>Francisco Leudes</p>
-            <p>@leudesz</p>
-            <p>01 Jan, 2025</p>
+        <ul class="stats">
+            <li><a href="">Tzeets</a></li>
+            <li><a href="">Tzeets & replys</a></li>
+            <li><a href="">Media</a></li>
+            <li><a href="">Links</a></li>
+        </ul>
+        <div class="post">
+            <div class="post-data">
+                <img src="" alt="">
+                <p class="black">Francisco Leudes</p>
+                <p class="grey">@leudesz</p>
+                <p class="grey">Jan 01, 2025</p>
+            </div>
+            <div>
+                <p class="black">Feliz ano novo!!!</p>
+            </div>
+            <div class="post-actions">
+                <a class="reply" href="">Reply</a>
+                <a class="retzeet" href="">Retzeet</a>
+                <a class="like" href="">Like</a>
+                <a class="reply" href="">Share</a>
+            </div>
         </div>
-        <div>
-            <p>Feliz ano novo!!!</p>
-        </div>
-        <div>
-            <a href="">Coment</a>
-            <a href="">Reply</a>
-            <a href="">Like</a>
-        </div>
+        
     </section>
 </body>
 </html>
