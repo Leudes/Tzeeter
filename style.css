@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.menu{
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+main img{
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+}
+
+.black{
+    color: rgb(15, 20, 25);
+}
+
+.grey{
+    color: rgb(83, 100, 113);
+}
+
+.profile{
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile button{
+    margin-left: 10px;
+}
+
+.stats{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.stats li{
+    margin: 0 5px;
+}
+
+.stats span{
+    font-weight: bold;
+}
+
+.stats a{
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+.stats a:hover{
+    text-decoration: underline;
+}
+
+.post-data{
+    display: flex;
+}
+
+.post-data p{
+    margin: 0 5px;
+}
+
+.post-actions a{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.reply:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.retzeet:hover{
+    background-color: rgba(0, 186, 124, 0.1) ;
+    color:  rgba(0, 186, 124, 1);
+}
+
+.like:hover{
+    background-color: rgba(249, 24, 128, 0.1) ;
+    color:  rgba(249, 24, 128, 1);
+}
